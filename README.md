@@ -1,28 +1,20 @@
-## Flutter Facebook Redesign Application
+Description:
+This is a Flutter project aiming to replicate the basic functionality and design of the Facebook mobile app. It includes features such as a news feed, profile viewing, friend requests, and more. This project serves as a learning exercise for Flutter developers to understand UI design and state management.
 
-A part of #flutter100daysofcode. Let's create a beautiful and animated Facebook Application UI with Flutter.
+Files:
 
-### [Watch it on Youtube](https://youtu.be/VDB1OHb5SGg)
+android/build.gradle: Contains the configuration settings for the Android build, including dependencies and repositories.
+android/settings.gradle: Specifies the structure of the Android project and includes Flutter plugins.
+ios/Flutter/AppFrameworkInfo.plist: Configuration file for iOS, specifying properties such as bundle identifier and version.
+test/widget_test.dart: Contains basic Flutter widget tests to verify the functionality of the app, such as counter increments.
 
-## Previous Designs
-[Checkout my Youtube channel](https://youtube.com/afgprogrammer)
+Installation:
+To run the project, follow these steps:
 
-
-## Development Setup
-Clone the repository and run the following commands:
-```
-flutter pub get
-flutter run
-```
-
-## ScreenShot
-
-<img src="assets/screenshot/one.png" height="500em"/>&nbsp;<img src="assets/screenshot/two.png" height="500em" />
-
-
-## Links
-
-* [Website](https://afgprogrammer.com)
-* [Youtube channel](https://youtube.com/afgprogrammer)
-* [Twitter](https://twitter.com/afgprogrammer)
-* [Instagram](https://instagram.com/afgprogrammer)
+Clone the repository to your local machine.
+Ensure you have Flutter installed on your system.
+Open the project in your preferred IDE or text editor.
+Run flutter pub get in the terminal to install dependencies.
+Launch the app on a simulator or physical device using flutter run.
+Testing:
+The project includes basic widget tests located in the test/widget_test.dart file. These tests can be executed using the Flutter testing framework to ensure the app's functionality is working as expected.
